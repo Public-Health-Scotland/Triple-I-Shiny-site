@@ -349,7 +349,7 @@ output$trend_plot <- renderPlotly({
         ),
         legend = list(font=list(size=11), bgcolor='#FFFFFF')
       ) %>%  
-      config(displayModeBar = FALSE, displaylogo = F, collaborate=F, showTips=F,  doubleClick=F, editable =F) # taking out plotly logo and collaborate button
+      config(displayModeBar = FALSE, displaylogo = F, showTips=F,  doubleClick=F, editable =F) # taking out plotly logo 
   }
 })
 
@@ -442,7 +442,7 @@ plotly_quadrant_plot <- function(){
           ),
           legend = list(font=list(size=16), bgcolor='#FFFFFF')
         ) %>%
-        config(displayModeBar = FALSE, displaylogo = F, collaborate=F, editable =F) # taking out plotly logo and collaborate button
+        config(displayModeBar = FALSE, displaylogo = F, editable =F) # taking out plotly logo 
     }
   }
 
@@ -1404,7 +1404,7 @@ plotly_quadrant_plot4 <- function(){
          ),
          legend = list(font=list(size=16), bgcolor='#FFFFFF')
        ) %>%  
-       config(displayModeBar = FALSE, displaylogo = F, collaborate=F, editable =F) # taking out plotly logo and collaborate button
+       config(displayModeBar = FALSE, displaylogo = F, editable =F) # taking out plotly logo 
    }
  }
 
